@@ -65,4 +65,10 @@ You can tweak the simulation with the following variables:
 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+### 2. Run the simulation
+```bash
+python PANTHEON.py
+```
+
 
