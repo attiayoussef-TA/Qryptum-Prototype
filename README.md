@@ -1,6 +1,6 @@
 # Qryptum-Prototype
 
-🚀 **Presented at the Wave-Particle Nexus Forum 2K25**  
+🚀 **Conceived, Engineered & Presented by Youssef Attia | Wave-Particle Nexus Forum 2K25**
 **Date:** 23 December 2025  
 **Venue:** National School of Engineering  
 
@@ -59,6 +59,13 @@ You can tweak the simulation with the following variables:
   - Bits lost during reconciliation  
   - PQC metrics (signature, verification time)  
   - AES metrics (encryption/decryption time)  
+---
+
+### 4. Results  🧪
+
+The simulations were performed on a graph consisting of five nodes (Alice, Bob, Charlie, David, and Eve), connected by edges representing quantum communication channels. For each run, a total of 4096 bits is generated and processed in successive batches (292 circuits of 14 qubits each). Background channel noise is modeled with an error rate of 0.01, which can be increased by interference from Eve according to a configurable eavesdropping fraction (e.g., 10% of the qubits). Key integrity is monitored through the Quantum Bit Error Rate (QBER), and any key is discarded if it exceeds the threshold of 11%.
+Key lengths before and after Privacy Amplification are recorded, with a minimum key size fixed at 64 bits for this scenario.
+
 ---
 
 ## ⚡ Usage / Run Instructions
