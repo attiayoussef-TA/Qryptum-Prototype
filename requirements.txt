@@ -1,0 +1,10 @@
+- qiskit
+- qiskit-aer
+- oqs
+- matplotlib
+- networkx
+- numpy
+- cryptography
+- tqdm
+- pandas
+- imageio
