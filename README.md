@@ -8,11 +8,21 @@
 This project was showcased at the student-focused forum to highlight **cutting-edge secure communication concepts** for embedded and IoT networks.
 
 ---
+![Quantum](https://img.shields.io/badge/Quantum-BB84-5e60ce?style=for-the-badge)
+![PQC](https://img.shields.io/badge/PQC-Dilithium%20%7C%20McEliece-f77f00?style=for-the-badge)
+![Entropy](https://img.shields.io/badge/Entropy-Binary%20Entropy-7400b8?style=for-the-badge)
+![Network](https://img.shields.io/badge/Network-Multi--Hop%20QKD-16a085?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
 
 ## 🔹 Features
 - Hybrid **Quantum + Post-Quantum secure multi-hop key distribution**  
 - Simulation of **quantum channels with noise & eavesdropping**  
-- **Cascade reconciliation and privacy amplification** for secure keys  
+- **Cascade reconciliation and privacy amplification** for secure keys :
+  Privacy amplification length is bounded using the **Binary entropy** function: **m ≤ n · (1 − 2·h₂(QBER)) − leaked_bits − security_parameter**
+  where h₂(p) is the binary entropy function. This ensures that the final key length is provably secure against an adversary under the observed QBER.
 - Multi-hop **secure messaging** using **AES-GCM + PQC signatures**  
 - **AI-assisted monitoring** with animated network visualization and dashboards  
 - Export of **metrics** for analysis (CSV, dashboards, circuit images)  
